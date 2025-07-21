@@ -33,7 +33,7 @@ function GridColumnHeading({ children }) {
       fontWeight="bold"
       color={siteConfig?.titlesFontColor?.hex || "gray.900"}
       letterSpacing="-0.04em"
-      fontFamily="serif"
+      
       mb={6}
     >
       {children}

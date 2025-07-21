@@ -87,7 +87,7 @@ export default function FeaturedCarouselSection({ featuredCarouselTitle: title, 
               fontWeight="bold"
               lineHeight="1.05"
               letterSpacing="-0.04em"
-              fontFamily="serif"
+              
               color={textColor?.hex || siteConfig?.textColor?.hex || 'white'}
             >
             {title}

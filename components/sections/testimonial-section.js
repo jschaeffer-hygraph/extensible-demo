@@ -35,7 +35,7 @@ export default function TestimonialSection({
               fontWeight="bold"
               color={siteConfig?.titlesFontColor?.hex || 'brand.900'}
               mb={6}
-              fontFamily="serif"
+              
             >
               {title}
             </Heading>

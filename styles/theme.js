@@ -12,7 +12,6 @@ const breakpoints = createBreakpoints({
 // Create a function that returns the theme with dynamic colors from site config
 export const createTheme = (siteConfiguration) => {
   const brandColor = '#c8102e'
-  const mainBrandColor = '#c8102e'
   
   return extendTheme({
     breakpoints,
@@ -79,7 +78,7 @@ export const createTheme = (siteConfiguration) => {
           listStyle: 'none'
         }
       }
-    }
+    },
   })
 }
 

@@ -1,0 +1,58 @@
+# Query: "serif"
+# ContextLines: 1
+
+11 results - 10 files
+
+components/sections/alternating-panels-section.js:
+  37                letterSpacing="-0.04em"
+  38:               fontFamily="sans-serif"
+  39                color={textColor?.hex || siteConfig?.textColor?.hex}
+
+components/sections/breakpoint.js:
+  18            letterSpacing="-0.04em"
+  19:           fontFamily="sans-serif"
+  20            color={siteConfig?.textColor?.hex}
+
+components/sections/featured-carousel-section.js:
+  89                letterSpacing="-0.04em"
+  90:               fontFamily="sans-serif"
+  91                color={textColor?.hex || siteConfig?.textColor?.hex || 'white'}
+
+components/sections/footer.js:
+  35        letterSpacing="-0.04em"
+  36:       fontFamily="sans-serif"
+  37        mb={6}
+
+components/sections/gallery-section.js:
+  40            letterSpacing="-0.04em"
+  41:           fontFamily="sans-serif"
+  42            color={siteConfig?.textColor?.hex} 
+
+components/sections/grid-card-section.js:
+  23              letterSpacing="-0.04em"
+  24:             fontFamily="sans-serif"
+  25              color={siteConfig?.textColor?.hex} 
+
+components/sections/hero-remote-source.js:
+  127                  letterSpacing="-0.04em"
+  128:                 fontFamily="sans-serif"
+  129                  color={siteConfig?.titlesFontColor?.hex || 'gray.800'}
+
+components/sections/hero.js:
+  113                  letterSpacing="-0.04em"
+  114:                 fontFamily="sans-serif"
+  115                  color={siteConfig?.titlesFontColor?.hex || 'gray.800'}
+
+components/sections/newsletter-signup.js:
+  23            letterSpacing="-0.04em"
+  24:           fontFamily="sans-serif"
+  25            color={siteConfig?.textColor?.hex || 'gray.900'}
+
+  33            letterSpacing="-0.04em"
+  34:           fontFamily="sans-serif"
+  35            color={siteConfig?.titlesFontColor?.hex}
+
+components/sections/testimonial-section.js:
+  37                mb={6}
+  38:               fontFamily="sans-serif"
+  39              >
