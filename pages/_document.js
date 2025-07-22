@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { VWOScript } from 'vwo-smartcode-nextjs';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -10,6 +11,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <VWOScript accountId="1118466" />
           <link
             rel="stylesheet"
             href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"
