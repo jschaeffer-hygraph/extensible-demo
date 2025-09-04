@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <VWOScript accountId="1118466" />
-          <!-- Google tag (gtag.js) -->
+          {/* Google tag (gtag.js) */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVQ7079CWY"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
